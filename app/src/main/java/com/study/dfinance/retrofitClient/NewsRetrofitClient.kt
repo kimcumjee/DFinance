@@ -1,7 +1,6 @@
-package com.stock.d_finance.retrofitClient
+package com.study.dfinance.retrofitClient
 
-import com.stock.d_finance.Service.NewService
-import com.stock.d_finance.Service.OilService
+import com.study.dfinance.service.NewService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

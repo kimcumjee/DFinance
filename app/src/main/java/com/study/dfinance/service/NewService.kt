@@ -1,10 +1,8 @@
-package com.stock.d_finance.Service
+package com.study.dfinance.service
 
 import com.stock.d_finance.model.NewsResponse.NewResponse
-import com.stock.d_finance.model.OilResponse.OilResponse
 import retrofit2.Response
 import retrofit2.http.GET
-import retrofit2.http.Header
 import retrofit2.http.Query
 
 interface NewService {
