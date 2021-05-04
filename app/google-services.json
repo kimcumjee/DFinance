@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "752796245746",
+    "project_id": "dfinan-e9516",
+    "storage_bucket": "dfinan-e9516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752796245746:android:8535747318812302eb7a6b",
+        "android_client_info": {
+          "package_name": "com.study.dfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752796245746-7anp8817n5p4031qkpgmgj2l9rn6hp29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.study.dfinance",
+            "certificate_hash": "9a2aaea29ecc0197e7ef4569704d39168a5b8367"
+          }
+        },
+        {
+          "client_id": "752796245746-s13cl2aj58vefu39bace71n3obg8mo83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpnwMwBogL_zta00SFWHPq-BAwGPh001Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752796245746-s13cl2aj58vefu39bace71n3obg8mo83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

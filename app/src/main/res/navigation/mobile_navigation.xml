@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_oil">
+    <fragment
+        android:id="@+id/navigation_oil"
+        android:name="com.study.dfinance.view.OilFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_oil_to_navigation_nasdaq"
+            app:destination="@id/navigation_nasdaq" />
+        <action
+            android:id="@+id/action_navigation_oil_to_navigation_news"
+            app:destination="@id/navigation_news" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_nasdaq"
+        android:name="com.study.dfinance.view.NasdaqFragment"
+        android:label="fragment_nasdaq"
+        tools:layout="@layout/fragment_nasdaq" >
+        <action
+            android:id="@+id/action_navigation_nasdaq_to_navigation_news"
+            app:destination="@id/navigation_news" />
+        <action
+            android:id="@+id/action_navigation_nasdaq_to_navigation_oil"
+            app:destination="@id/navigation_oil" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.study.dfinance.view.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_navigation_news_to_navigation_nasdaq"
+            app:destination="@id/navigation_nasdaq" />
+        <action
+            android:id="@+id/action_navigation_news_to_navigation_oil"
+            app:destination="@id/navigation_oil" />
+    </fragment>
+</navigation>
