@@ -6,7 +6,7 @@
     app:startDestination="@id/navigation_oil">
     <fragment
         android:id="@+id/navigation_oil"
-        android:name="com.study.dfinance.view.OilFragment"
+        android:name="com.study.dfinance.view.bottomView.OilFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_nasdaq"
-        android:name="com.study.dfinance.view.NasdaqFragment"
+        android:name="com.study.dfinance.view.bottomView.NasdaqFragment"
         android:label="fragment_nasdaq"
         tools:layout="@layout/fragment_nasdaq" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.study.dfinance.view.NewsFragment"
+        android:name="com.study.dfinance.view.bottomView.NewsFragment"
         android:label="fragment_news"
         tools:layout="@layout/fragment_news" >
         <action

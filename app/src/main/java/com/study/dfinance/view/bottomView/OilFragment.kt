@@ -1,4 +1,4 @@
-package com.study.dfinance.view
+package com.study.dfinance.view.bottomView
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.study.dfinance.R
-import com.study.dfinance.viewModel.OilViewModel
+import com.study.dfinance.viewModel.bottomViewModel.OilViewModel
 
 class OilFragment : Fragment() {
 
