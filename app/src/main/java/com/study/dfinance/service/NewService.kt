@@ -1,6 +1,6 @@
 package com.study.dfinance.service
 
-import com.stock.d_finance.model.NewsResponse.NewResponse
+import com.study.dfinance.model.newsResponse.NewResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

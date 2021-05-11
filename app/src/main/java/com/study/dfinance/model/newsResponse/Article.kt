@@ -1,4 +1,4 @@
-package com.stock.d_finance.model.NewsResponse
+package com.study.dfinance.model.newsResponse
 
 data class Article(
     val author: Any,

@@ -1,4 +1,4 @@
-package com.study.dfinance.model.OilResponse
+package com.study.dfinance.model.oilResponse
 
 data class Data(
     val code: String,

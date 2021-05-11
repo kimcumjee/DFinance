@@ -1,4 +1,4 @@
-package com.stock.d_finance.widget
+package com.study.dfinance.widget
 
 import android.util.Log
 import androidx.annotation.MainThread
